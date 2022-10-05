@@ -1,0 +1,23 @@
+{
+    "name": "companycontact/dev",
+    "authors": [
+        {
+            "name": "redbulldev",
+            "email": "=nv.hung.red@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Companycontact\\": "src/"
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Companycontact\\Providers\\CompanyContactProvider"
+            ]
+        }
+    }
+}
